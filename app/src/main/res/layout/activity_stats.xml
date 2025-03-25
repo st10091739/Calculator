@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="50dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="STATISTICS FUNCTIONS" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="50dp"
+        android:text="Enter Number:" />
+
+    <EditText
+        android:id="@+id/statNumber1"
+        android:layout_width="235dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="5dp"
+        android:inputType="number"
+        android:paddingLeft="30dp"
+        android:hint="number"
+        android:text="" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:insetLeft="75dp"
+        android:insetRight="75dp"
+        android:text="ADD" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="50dp"
+        android:text="Numbers added in memory:" />
+
+    <TextView
+        android:id="@+id/memNumbers"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="50dp"
+        android:paddingLeft="50dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnClr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:insetLeft="80dp"
+        android:insetRight="80dp"
+        android:text="CLEAR" />
+
+    <Button
+        android:id="@+id/btnAvg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:insetLeft="80dp"
+        android:insetRight="80dp"
+        android:text="FIND AVERAGE" />
+
+    <Button
+        android:id="@+id/btnMinMax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:insetLeft="80dp"
+        android:insetRight="80dp"
+        android:text="FIND MIN MAX" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="50dp"
+        android:text="ANSWER:" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50dp"
+        android:paddingLeft="50dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnBasic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:insetLeft="80dp"
+        android:insetRight="80dp"
+        android:text="BASIC CALCULATOR" />
+
+</LinearLayout>
